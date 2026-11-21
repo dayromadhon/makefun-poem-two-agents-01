@@ -4,6 +4,8 @@
 Writes one short poem about agency — the power to choose and to act —
 about two agents agreeing, to <output_dir>/entry.txt.
 
+Output contract: writes exactly 198 Unicode code points of UTF-8 text to
+<output_dir>/entry.txt, with no trailing newline after the last line.
 No network. Deterministic: the same bytes on every run.
 Output dir: $MAKEFUN_OUTPUT_DIR if set, else /output.
 """
